@@ -6,14 +6,14 @@ from datetime import datetime
 """
 #configuration for cloud storage-> project->copy config->change rules to read and write
  {
-    apiKey: "AIzaSyBPH27Sd3MonXJUQKadDviQ7l5ChE62TcQ",
-    authDomain: "imagerpitest.firebaseapp.com",
+    apiKey: "APIKEY",
+    authDomain: "xyz.firebaseapp.com",
     databaseURL: "https://imagerpitest.firebaseio.com",
-    projectId: "imagerpitest",
-    storageBucket: "imagerpitest.appspot.com",
-    messagingSenderId: "563064811009",
-    appId: "1:563064811009:web:ec70314deb06ddd783da00",
-    measurementId: "G-1XJ567NH5X"
+    projectId: "xyz",
+    storageBucket: "xyz.appspot.com",
+    messagingSenderId: "76896579",
+    appId: "1:563064811009:web:er08760-89076-980-67",
+    measurementId: "G-857349867854"
   }
 """
 dateTimeObj = datetime.now()
@@ -30,14 +30,14 @@ camera.capture(path_local)
 #camera.stop_preview()
 
 config_cloud={
-    "apiKey": "AIzaSyBPH27Sd3MonXJUQKadDviQ7l5ChE62TcQ",
-    "authDomain": "imagerpitest.firebaseapp.com",
-    "databaseURL": "https://imagerpitest.firebaseio.com",
-    "projectId": "imagerpitest",
-    "storageBucket": "imagerpitest.appspot.com",
-    "messagingSenderId": "563064811009",
-    "appId": "1:563064811009:web:ec70314deb06ddd783da00",
-    "measurementId": "G-1XJ567NH5X"
+    "apiKey": "abc",
+    "authDomain": "xyz.firebaseapp.com",
+    "databaseURL": "https://xyz.firebaseio.com",
+    "projectId": "xyz",
+    "storageBucket": "xyz.appspot.com",
+    "messagingSenderId": "7638756743865",
+    "appId": "1:jhfgjnvhif:web:gfcbgvyu",
+    "measurementId": "G-reheguvi"
   }
 firebase = pyrebase.initialize_app(config_cloud)
 storage = firebase.storage()
